@@ -73,10 +73,10 @@ $('.time-block').each(function (index, timeBlock) {
       if ((event.target.matches("button"))) {
           saveSchedule(event);
           const hour = event.target.parentElement.getAttribute('data-hour');
-          const text = event.target.parentElement.querySelector('textarea').value
+          const text = event.target.parentElement.querySelector('textarea').value;
           localStorage.setItem('hour'+hour, text);
-      }
-  })
+      };
+  });
 
 
   // Function to set user input with the hour into local storage.
