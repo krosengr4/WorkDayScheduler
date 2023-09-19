@@ -1,11 +1,6 @@
 # Description of application
 In the work day schedule application, a user can view their workday (hours 9-5). The hours are color coded so that the user can easily view the current hour (Red), the future hours (Green), and the hours that have past (White). The user can then also type in tasks that they would like to do throughout the day, specific to each hour. When the user clicks the save button, whatever they typed in will save and stay there until it is erased.
 
-
-Problems: The save button:
-    - The user must click the black icon within the blue area to save what they have typed.
-    - Clicking the blue area, outside of the black icon, will not save.
-
 # User Story
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
