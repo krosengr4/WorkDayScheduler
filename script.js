@@ -64,10 +64,21 @@ $('.time-block').each(function (index, timeBlock) {
   // Add click event on the save buttons. Runs saveSchedule function. 
   // *User must click the little black icon in the blue area.
   timeBlock.addEventListener("click", function (event) {
-      if (event.target.matches("i")) {
+    console.log(event.target)
+      if ((event.target.matches("i"))) {
           saveSchedule(event);
+          const hour = event.target.parentElement.parentElement.getAttribute('data-hour');
+          const text = event.target.parentElement.parentElement.querySelector('textarea').value
+          localStorage.setItem("hour"+hour, text);
+      }
+      if ((event.target.matches("button"))) {
+          saveSchedule(event);
+          const hour = event.target.parentElement.getAttribute('data-hour');
+          const text = event.target.parentElement.querySelector('textarea').value
+          localStorage.setItem('hour'+hour, text);
       }
   })
+
 
   // Function to set user input with the hour into local storage.
 function saveSchedule(event) {
