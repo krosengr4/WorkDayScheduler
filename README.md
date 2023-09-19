@@ -26,3 +26,6 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+# References
+Link to the starter code: https://github.com/coding-boot-camp/crispy-octo-meme
+
