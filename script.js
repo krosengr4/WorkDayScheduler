@@ -62,7 +62,6 @@ $('.time-block').each(function (index, timeBlock) {
   var scheduleHour = timeBlock.getAttribute ('data-hour');
 
   // Add click event on the save buttons. Runs saveSchedule function. 
-  // *User must click the little black icon in the blue area.
   timeBlock.addEventListener("click", function (event) {
     console.log(event.target)
       if ((event.target.matches("i"))) {
