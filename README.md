@@ -13,4 +13,8 @@ https://krosengr4.github.io/WorkDayScheduler/
 # Link to the starter code:
 https://github.com/coding-boot-camp/crispy-octo-meme
 
+# Picture of Application
+![image](https://github.com/krosengr4/WorkDayScheduler/assets/139993281/56f842d6-64aa-41ca-bf4e-e7ce9590d620)
+
+
 
