@@ -1,26 +1,15 @@
 # Description of application
-In the work day schedule application, a user can view their workday (hours 9-5). The hours are color coded so that the user can easily view the current hour (Red), the future hours (Green), and the hours that have past (White). The user can then also type in tasks that they would like to do throughout the day, specific to each hour. When the user clicks the save button, whatever they typed in will save and stay there until it is erased.
+In the work day schedule application, a user can view their workday (hours 9-5). 
 
-# User Story
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
+The hours are color coded so that the user can easily view the current hour (Red), the future hours (Green), and the hours that have past (White). 
 
-# Acceptance Criteria
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with time blocks for standard business hours of 9am to 5pm
-WHEN I view the time blocks for that day
-THEN each time block is color-coded to indicate whether it is in the past, present, or future
-WHEN I click into a time block
-THEN I can enter an event
-WHEN I click the save button for that time block
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
+The user can then also type in tasks that they would like to do throughout the day, specific to each hour. When the user clicks the save button, whatever they typed in will save and stay until the user decides to erase it and save again.
 
-# References
-Link to the starter code: https://github.com/coding-boot-camp/crispy-octo-meme
+
+#Link for the Deployed Application
+https://krosengr4.github.io/WorkDayScheduler/
+
+
+# Link to the starter code:
+https://github.com/coding-boot-camp/crispy-octo-meme
 
