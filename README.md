@@ -1,4 +1,4 @@
-# Description of application
+# My Workday Scheduler Application
 In the work day schedule application, a user can view their workday (hours 9-5). 
 
 The hours are color coded so that the user can easily view the current hour (Red), the future hours (Green), and the hours that have past (White). 
