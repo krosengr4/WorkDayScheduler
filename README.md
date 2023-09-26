@@ -10,7 +10,7 @@ The user can then also type in tasks that they would like to do throughout the d
 [Click here for the Deployed Application!](https://krosengr4.github.io/WorkDayScheduler/)
 
 
-# Link to the starter code:
+# Starter Code:
 [Click here for the Starter Code!](https://github.com/coding-boot-camp/crispy-octo-meme)
 
 # Picture of Application
