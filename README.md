@@ -10,7 +10,7 @@
 [Click here for the Deployed Application!](https://krosengr4.github.io/WorkDayScheduler/)
 
 
-# Starter Code:
+# Starter Code
 [Click here for the Starter Code!](https://github.com/coding-boot-camp/crispy-octo-meme)
 
 # Picture of Application
